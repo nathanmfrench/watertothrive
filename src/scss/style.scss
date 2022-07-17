@@ -1,9 +1,10 @@
 @import "base/base";
 @import "components/title";
 @import "components/sidebar";
-@import "components/navbar";
-@import "components/milestones";
-@import "components/visits";
-@import "components/revenue";
 @import "components/dashboard";
-@import "components/mediaQueries";
+
+
+.app{
+    user-select: none;
+}
+

@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items:start;
+
+}
+
+.item1{
+    color:white;
+}
+.item2{
+    color:red;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+*{
+    font-family: sans-serif;
+}
+h2 {
+    -webkit-animation: fade-in 3s ease-in-out both;
+            animation: fade-in 3s ease-in-out both;
+}
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.main_container{
+    display:grid;
+    grid-template-columns: 1fr .5fr 1fr;
+    grid-template-rows: 1.2fr 1fr;
+}
+.piechart1{
+    margin-top: 4%;
+}
+.piechart2{
+    margin-top: 4%;
+}
+.piechart3{
+
+}
+.piechart4{
+
+}
+.piechart_header1{
+    color: #E3DAC9;
+    text-align: center;
+    -webkit-animation: fade-in 3s ease-in-out both;
+            animation: fade-in 3s ease-in-out both;
+}
+
+.org_contributions{
+    text-align:center;
+    margin-top:54%;
+    position:relative;
+    color:#E3DAC9;
+    
+}
+
+.personal_contributions{
+    text-align:center;
+    margin-top:54%;
+    color:#E3DAC9;
+}
+
